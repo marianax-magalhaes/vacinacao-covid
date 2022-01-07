@@ -1,0 +1,21 @@
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <i class="fas fa-virus fa-3x" style="margin: 0 20px 0 10px"></i>
+
+  <span><a [routerLink]="['']">Home</a></span>
+  <span style="margin: 0 10px 0 10px">|</span>
+  <span><a [routerLink]="['pessoa']">Pessoa</a></span>
+  <span style="margin: 0 10px 0 10px">|</span>
+  <span><a [routerLink]="['fornecedor']">Fornecedor</a></span>
+  <span style="margin: 0 10px 0 10px">|</span>
+  <span><a [routerLink]="['aplicacao']">Aplicação</a></span>
+
+  <div class="spacer"></div>
+
+</div>
+
+<div style="margin-top: 60px">
+  <router-outlet></router-outlet>
+</div>
+
+  
